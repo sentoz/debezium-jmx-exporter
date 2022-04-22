@@ -14,9 +14,9 @@ documentation
 
 You can pull image from registries:
 
-* `ghcr.io/sentoz/debezium-jmx-exporter:1.9`
-* `quay.io/sentoz/debezium-jmx-exporter:1.9`
-* `docker.io/sentoz/debezium-jmx-exporter:1.9`
+* `ghcr.io/sentoz/debezium-jmx-exporter:1.9.0.Final`
+* `quay.io/sentoz/debezium-jmx-exporter:1.9.0.Final`
+* `docker.io/sentoz/debezium-jmx-exporter:1.9.0.Final`
 
 <!--
 Title: Debezium JMX Exporter
