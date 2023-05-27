@@ -1,7 +1,8 @@
-ARG DEBEZIUM_VERSION="2.0.0.Final"
+ARG DEBEZIUM_VERSION="2.2.0.Final"
 FROM debezium/connect:${DEBEZIUM_VERSION}
 
-ARG JMX_AGENT_VERSION="0.17.2"
+ARG JMX_AGENT_VERSION="0.18.0"
+
 # hadolint ignore=DL3003
 RUN mkdir /kafka/etc && cd /kafka/etc &&\
         curl -so jmx_prometheus_javaagent.jar \
